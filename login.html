@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Mi E-Plaza de Mercado</h1>
+            
+        </div>
+        <div>
+            <a onclick="login12()">Home</a> <!-- Enlace que redirige a la página de inicio -->
+        </div>
+    </header>
+
+    <!-- Formulario de login 
+    <div class="login-form" id="loginForm">
+        <h3>Login</h3>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button onclick="toggleLoginForm()">Login</button>
+        <p id="loginStatus"></p>
+    </div>
+
+    <div class="user-login">
+    <button onclick="toggleLoginForm()">Loguearse</button>
+</div>
+-->
+
+<section class="body1">
+
+<div class="container">
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button  class="toggle-btn" onclick="login1()">Login</button>
+            <button  class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+            <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png">
+            <img src="https://img.icons8.com/color/48/000000/twitter--v1.png">
+            <img src="https://img.icons8.com/fluent/48/000000/google-logo.png">
+        </div>
+        <div id="login" class="input-group">
+            <input type="text" id="username" class="input-field" placeholder="Username" required>
+            <input type="password" id="password" class="input-field" placeholder="Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Me</span>
+            <button type="submit" class="submit-btn" onclick="login()">Entrar</button>
+            
+            <p id="loginStatus"></p>
+    </div>
+        <div id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="email" class="input-field" placeholder="Email" required>
+            <input type="password" class="input-field" placeholder="Password" required>
+            <input type="password" class="input-field" placeholder="Confirm Password" required>
+            <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </div>
+    </div>
+</div>
+
+</section>
+
+    <!-- Formulario de login 
+    <div class="login-form" id="loginForm">
+        <h3>Loguear</h3>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Entrar</button>
+        <p id="loginStatus"></p>
+    </div>
+    
+-->
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
